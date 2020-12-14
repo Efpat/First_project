@@ -120,3 +120,51 @@
     text-transform: uppercase;
 }
 
+.block_value {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.block_1 {
+    background: white;
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+    border-bottom: 1px solid gainsboro;
+}
+.block_2 {
+    background: white;
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+    border-bottom: 1px solid gainsboro;
+}
+.block_3 {
+    background: white;
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+    border-bottom: 1px solid gainsboro;
+}
+.block_4 {
+    background: white;
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+    border-bottom: 1px solid gainsboro;
+
+
+}
+.main_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d4d4d4;
+
+}
+.block_text_1 {
+    line-height: 1.6;
+}
