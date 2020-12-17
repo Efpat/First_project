@@ -74,6 +74,8 @@
 .content_wrapper .content .name {
     background: white;
     transform: translateX(-30%);
+    width: 100%;
+
 
 }
 .actual_name {
@@ -165,6 +167,7 @@
 .skill_box_desc {
     text-align: center;
 }
+
 
 
 
