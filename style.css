@@ -547,7 +547,7 @@ button {
 #finish {
     background-color: #222222;
     text-align: center;
-    height: 25vh;
+    height: 16vh;
 
 }
 .social_media {
@@ -567,6 +567,8 @@ button {
     margin: 10px;
     border: 2px solid gray;
     padding: 7px;
+    border-radius: 5px;
+    width: 20px;
 
 }
 .fa {
