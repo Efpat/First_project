@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "demo/node_modules/.bin/nuxt",
+    "build": "demo/node_modules/.bin/nuxt build",
+    "start": "demo/node_modules/.bin/nuxt start",
+    "generate": "demo/node_modules/.bin/nuxt generate",
+    "lint:js": "demo/node_modules/.bin/eslint --ext \\\".js,.vue\\\" --fix --ignore-path  .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "core-js": "^3.8.3",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.12",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "sass-loader": "10.1.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.5.0"
+  }
+}
